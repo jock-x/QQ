@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_listitem_other.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\chat_listitem_other.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_grid_item.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\chat_grid_item.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_point_layout.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\image_point_layout.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myface_layout.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\myface_layout.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qqlist_expandable.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\layout_qqlist_expandable.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_listitem_me.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\chat_listitem_me.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_list_item.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\layout_list_item.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\load_more.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_image_disselected.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\tabwidget_image_disselected.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_layout.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\my_layout.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_image_selected.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\tabwidget_image_selected.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qqlist_classify_item.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\qqlist_classify_item.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qqlist_group.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\layout_qqlist_group.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qqlist_child.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\layout_qqlist_child.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_item.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\view_item.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face_layout_file.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\face_layout_file.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\point_image_layout.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\point_image_layout.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_face_selcted_indicator.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\tab_face_selcted_indicator.xml"
+    }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+
+    android:gravity="center"
+    android:background="@drawable/tab_widget_disselected" >
+       
+    <ImageView 
+        android:id="@+id/tabImage_disselected"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_margin="9dip"
+
+        android:background="@android:color/transparent"/>
+    
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".MainActivity"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true" >
+    
+    
+
+    <ScrollView 
+        android:id="@+id/qqlist_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <ListView 
+                android:id="@+id/qqlist_classify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#000000"
+                android:dividerHeight="0px"
+                android:fadingEdge="none"/>
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qqlist_classify_text"
+                android:text="好友分组"
+                android:textSize="6pt"
+                android:textColor="#666666"
+                android:padding="4dip"/>
+            
+            <ExpandableListView
+ 			    android:id="@+id/qq_list"
+			    android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+                android:divider="#888888"
+                android:dividerHeight="0px"
+                android:fadingEdge="none"/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qqlist_classify_text"
+                android:text="生活服务"
+                android:textSize="6pt"
+                android:textColor="#666666"
+                android:padding="4dip"/>
+            
+            <ListView 
+                android:id="@+id/qqlist_classify_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#000000"
+                android:dividerHeight="0px"/>
+            
+            
+        </LinearLayout>
+        
+        
+    </ScrollView>
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="40dip"
+    	android:id="@+id/titleGroupView"
+    	android:orientation="horizontal"
+    	android:visibility="gone" 
+    	android:background="@drawable/list_item_border">
+
+   		<ImageView
+        	android:id="@+id/title_groupImage"
+        	android:layout_width="match_parent"
+        	android:layout_height="16dip"
+        	android:layout_weight="1.8"
+        	android:layout_gravity="center"
+        	android:background="@drawable/todown" />
+
+    	<TextView
+        	android:id="@+id/title_groupName"
+        	android:layout_width="match_parent"
+        	android:layout_height="42dip"
+        	android:layout_weight="1"
+        	android:paddingLeft="15dip"
+        	android:paddingTop="11dip"
+        	android:textSize="7pt"
+        	android:text="fdg" />
+    	<TextView 
+        	android:id="@+id/title_childCount"
+        	android:layout_width="match_parent"
+        	android:layout_height="42dip"
+        	android:layout_weight="1"
+        	android:gravity="right"
+        	android:paddingRight="10dip"
+        	android:paddingTop="11dip"
+        	android:text="ewsf"/>
+
+	</LinearLayout>
+    
+
+ 
+   
+</RelativeLayout>

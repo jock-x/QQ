@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_in.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\anim\\right_in.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_in.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_out.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\anim\\left_out.xml"
+    }
+]
