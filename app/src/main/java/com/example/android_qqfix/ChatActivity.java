@@ -1,8 +1,10 @@
 package com.example.android_qqfix;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.TabActivity;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -387,6 +389,22 @@ public class ChatActivity extends Activity implements OnRefreshListener{
 	}
 
 
+
+	public void DelTb(String ChatButtom){
+		SQLiteDatabase sdb = helper.getReadableDatabase();
+
+
+		String sql = "delete  from Chat where ChatButtom = ?";
+
+
+		try {
+			sdb.execSQL(sql, new String[] {ChatButtom});
+		} catch (SQLException e) {
+			Log.i("err", "insert failed");
+		}
+	}
+
+
 	private void user() {
 		//3,数据库的操作，查询
 		SQLiteDatabase sdb = helper.getReadableDatabase();
@@ -614,7 +632,7 @@ public class ChatActivity extends Activity implements OnRefreshListener{
 		}
 
 		@Override
-		public View getView(int position, View convertView, ViewGroup parent) {
+		public View getView(final int position, View convertView, ViewGroup parent) {
 			// TODO Auto-generated method stub
 			ViewHolder holder=null;
 			int who=(Integer)chatList.get(position).get("person");
@@ -626,6 +644,38 @@ public class ChatActivity extends Activity implements OnRefreshListener{
 			holder.imageView=(ImageView)convertView.findViewById(to[who*3+0]);
 			holder.textView=(TextView)convertView.findViewById(to[who*3+1]);
 			holder.DataView=(TextView)convertView.findViewById(to[who*3+2]);
+			holder.textView.setOnClickListener(new OnClickListener(){
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					new AlertDialog.Builder(context).setTitle("删除提示框").setMessage("确认删除该数据？")
+							.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+								public void onClick(DialogInterface dialog, int which) {
+
+
+								String buttom=chatList.get(position).get(from[1]).toString();
+                                DelTb(buttom);
+
+
+									chatList.remove(position);
+									adapter.notifyDataSetChanged();
+									chatListView.setSelection(position);
+
+
+
+								}})
+							.setNegativeButton("取消",null)
+							.show();
+
+
+						/*	Toast.makeText(context, +" is clicked", Toast.LENGTH_SHORT).show();*/
+
+				}
+
+
+
+
+
+			});
 
 			holder.imageView.setBackgroundResource((Integer)chatList.get(position).get(from[0]));
 			setFaceText(holder.textView, chatList.get(position).get(from[1]).toString());

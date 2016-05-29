@@ -4,12 +4,12 @@
         "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\chat_listitem_other.xml"
     },
     {
-        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_grid_item.xml",
-        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\chat_grid_item.xml"
-    },
-    {
         "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_point_layout.xml",
         "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\image_point_layout.xml"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_grid_item.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\layout\\chat_grid_item.xml"
     },
     {
         "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myface_layout.xml",

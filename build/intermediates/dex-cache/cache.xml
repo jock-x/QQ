@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="E:\ADK  TEST\QQ\app\libs\gson-2.2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="E:\ADK  TEST\QQ\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.4_6f1672495fccb13786a8c1c3700b10f98bab2c50\classes.dex" />
+    </item>
+    <item
+        jar="E:\ADK  TEST\QQ\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="908ba8e72469138cbc1d6bbc5fd608afb50eae8d">
+        <dex dex="E:\ADK  TEST\QQ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_224f726dcd9ace37e6c459f0f6e53dbe4be99cd8\classes.dex" />
+    </item>
+    <item
+        jar="E:\ADK  TEST\QQ\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9254596cff083ce122838113ba13fb563109ef2f">
+        <dex dex="E:\ADK  TEST\QQ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e18f7d8171643b1bbc024fcadab6f3c414f93245\classes.dex" />
+    </item>
+    <item
+        jar="E:\androidSDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\ADK  TEST\QQ\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_c4f8fbab2221502404bc22b8f4e07008ef68c86f\classes.dex" />
+    </item>
+
+</items>

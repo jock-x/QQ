@@ -16,12 +16,12 @@
         "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\lastchild.png"
     },
     {
-        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_history_disselected.png",
-        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\face_history_disselected.png"
-    },
-    {
         "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow.png",
         "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_history_disselected.png",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\face_history_disselected.png"
     },
     {
         "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fillet_shape.xml",
@@ -160,12 +160,12 @@
         "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\face_look_disselected.png"
     },
     {
-        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tabwidget_disselected.xml",
-        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\tabwidget_disselected.xml"
-    },
-    {
         "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\forum.png",
         "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\forum.png"
+    },
+    {
+        "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tabwidget_disselected.xml",
+        "source": "E:\\ADK  TEST\\QQ\\app\\src\\main\\res\\drawable-hdpi\\tabwidget_disselected.xml"
     },
     {
         "merged": "E:\\ADK  TEST\\QQ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toright.png",
